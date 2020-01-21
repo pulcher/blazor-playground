@@ -1,0 +1,25 @@
+Title: 
+    C# on the browser FTW!
+
+Abstract:
+This is an introduction to new set of technologies for writing web applications.  Although Webassembly has
+made its debut in the web world, there have been many advancements with the mobile, and most recently on the
+desktop.  I will show you how to get started, demonstrate the features, provide you with all of my samples, 
+discuss the current state of the technology, and where this is headed in the future. So come to my talk to 
+learn about the next awesome technology for you to use in your current and future projects.
+
+Possible Titles:
+    1 Blazor and Webassembly are catching on like wildfire
+    1 Blaze into your future with Blazor and Webassembly
+    Burn down Javascript with Blazor
+    Roar into your future with Blazor and Webassembly
+    Explode into the future web development with Blazor
+    Webassembly blazes with Blazor
+    Blazor moved my Javascript
+    Blast past Javascript with Webassembly and Blazor
+    Use Webassembly and Blazor to put Javascript in a Bonefire
+
+Other abstract thoughts:
+Is Javascript dead?  Not at all.  However, for a number of people Javascript has never really been alive.
+With this technology it is entirely possible to write a web application and never ever touch Javascript.
+Yes, it is possible to write an entire application and never touch javascript!  

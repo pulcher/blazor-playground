@@ -1,0 +1,28 @@
+﻿@page "/counter"
+@page "/counter/{StartCount:int}"
+<h1>Counter</h1>
+
+<p>Current count: @currentCount</p>
+
+<CascadingValue Value="@StartCount" >
+    <Blah firstName="Harold" lastname="Pulcher" />
+</CascadingValue>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+
+    [Parameter] public int StartCount {get; set;}
+
+    private int currentCount = 0;
+
+    protected override async Task OnInitializedAsync()
+    {
+        currentCount = StartCount;
+    }
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}

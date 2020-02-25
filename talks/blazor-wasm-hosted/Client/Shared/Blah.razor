@@ -1,0 +1,8 @@
+﻿<h3>Hello from @firstName  @lastName: @StartCount</h3>
+
+@code {
+    [Parameter] public string firstName { get; set; }
+    [Parameter] public string lastName { get; set; }
+
+    [CascadingParameter] public int StartCount { get; set; }
+}

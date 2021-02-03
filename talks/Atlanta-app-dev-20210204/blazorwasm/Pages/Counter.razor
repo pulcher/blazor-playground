@@ -1,0 +1,22 @@
+@page "/counter"
+@page "/counter/{startCount:int}"
+
+<h1>Counter</h1>
+
+<p>Current count: @currentCount</p>
+
+<p>Passed count: @startCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+    [Parameter]
+    public int startCount { get; set; }
+    private int currentCount = 0;
+
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}
